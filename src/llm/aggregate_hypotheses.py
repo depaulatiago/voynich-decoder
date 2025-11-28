@@ -45,7 +45,10 @@ OUT_CSV = HYP_DIR / 'hypotheses_summary.csv'
 def list_jsonl_files(d: Path):
     if not d.exists():
         return []
-    return sorted([p for p in d.iterdir() if p.is_file() and p.suffix == '.jsonl'])
+        # Exclude output files to avoid circular processing
+        excluded = {'hypotheses_aggregated.jsonl', 'hypotheses_summary.jsonl'}
+        return sorted([p for p in d.iterdir() 
+                       if p.is_file() and p.suffix == '.jsonl' and p.name not in excluded])
 
 
 def load_records(path: Path):
