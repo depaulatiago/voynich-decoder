@@ -1,0 +1,107 @@
+{
+  "lines": 5,
+  "tokens": 14,
+  "vocab_size": 10,
+  "hapax_legomena": 8,
+  "hapax_ratio": 0.8,
+  "unigram_entropy_bits": 3.09306920777189,
+  "zipf_slope_loglog": -0.5501380387199296,
+  "top_unigrams": [
+    [
+      "zot",
+      4
+    ],
+    [
+      "qokedy",
+      2
+    ],
+    [
+      "cheedy",
+      1
+    ],
+    [
+      "unclear",
+      1
+    ],
+    [
+      "ixaiin",
+      1
+    ],
+    [
+      "tokeey",
+      1
+    ],
+    [
+      "n",
+      1
+    ],
+    [
+      "end",
+      1
+    ],
+    [
+      "of",
+      1
+    ],
+    [
+      "sample",
+      1
+    ]
+  ],
+  "top_bigrams": [
+    [
+      "zot zot",
+      2
+    ],
+    [
+      "qokedy cheedy",
+      1
+    ],
+    [
+      "cheedy unclear",
+      1
+    ],
+    [
+      "unclear ixaiin",
+      1
+    ],
+    [
+      "ixaiin qokedy",
+      1
+    ],
+    [
+      "qokedy tokeey",
+      1
+    ],
+    [
+      "tokeey zot",
+      1
+    ],
+    [
+      "zot n",
+      1
+    ],
+    [
+      "n zot",
+      1
+    ],
+    [
+      "zot end",
+      1
+    ],
+    [
+      "end of",
+      1
+    ],
+    [
+      "of sample",
+      1
+    ]
+  ],
+  "metadata": {
+    "generated_at": null,
+    "run_id": "local",
+    "input_file": null,
+    "params": {}
+  }
+}

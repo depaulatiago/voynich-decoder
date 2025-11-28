@@ -1,0 +1,11 @@
+{
+  "folio": "103v",
+  "image": "/home/tiago/Documents/GitHub/voynich-decoder/data/external/images/103v.jpg",
+  "coords_source": "/home/tiago/Documents/GitHub/voynich-decoder/data/processed/token_coords.jsonl",
+  "output": "/home/tiago/Documents/GitHub/voynich-decoder/reports/figures/overlays/overlay_103v.png",
+  "num_tokens": 2,
+  "unique_tokens": 2,
+  "color_by_token": true,
+  "show_labels": true,
+  "show_legend": true
+}

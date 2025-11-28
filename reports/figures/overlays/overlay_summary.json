@@ -1,0 +1,32 @@
+{
+  "total_tokens": 14,
+  "unique_tokens": 10,
+  "folios": 5,
+  "folio_stats": {
+    "103v": {
+      "tokens": 2,
+      "unique_tokens": 2,
+      "lines": 1
+    },
+    "104r": {
+      "tokens": 3,
+      "unique_tokens": 3,
+      "lines": 1
+    },
+    "1r": {
+      "tokens": 3,
+      "unique_tokens": 3,
+      "lines": 1
+    },
+    "24v": {
+      "tokens": 3,
+      "unique_tokens": 1,
+      "lines": 1
+    },
+    "25r": {
+      "tokens": 3,
+      "unique_tokens": 3,
+      "lines": 1
+    }
+  }
+}

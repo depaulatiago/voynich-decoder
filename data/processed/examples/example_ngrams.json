@@ -1,0 +1,30 @@
+{
+  "unigrams": {
+    "qokedy": 2,
+    "cheedy": 1,
+    "unclear": 1,
+    "ixaiin": 1,
+    "tokeey": 1,
+    "zot": 4,
+    "n": 1,
+    "end": 1,
+    "of": 1,
+    "sample": 1
+  },
+  "bigrams": {
+    "qokedy cheedy": 1,
+    "unclear ixaiin": 1,
+    "ixaiin qokedy": 1,
+    "tokeey zot": 1,
+    "zot n": 1,
+    "zot zot": 2,
+    "end of": 1,
+    "of sample": 1
+  },
+  "trigrams": {
+    "unclear ixaiin qokedy": 1,
+    "tokeey zot n": 1,
+    "zot zot zot": 1,
+    "end of sample": 1
+  }
+}

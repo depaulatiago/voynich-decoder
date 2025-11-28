@@ -1,0 +1,18 @@
+# Core (minimal) requirements - good for data processing and basic analysis
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+gensim
+umap-learn
+tqdm
+jupyter
+
+# Extra packages often used by the tooling in this repo
+# (sentence-transformers requires either `torch` or `tensorflow` - see requirements-full.txt)
+sentence-transformers
+hdbscan
+transformers
+sentencepiece
+Pillow

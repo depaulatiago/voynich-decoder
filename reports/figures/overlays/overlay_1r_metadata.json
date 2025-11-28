@@ -1,0 +1,11 @@
+{
+  "folio": "1r",
+  "image": "/home/tiago/Documents/GitHub/voynich-decoder/data/external/images/1r.jpg",
+  "coords_source": "/home/tiago/Documents/GitHub/voynich-decoder/data/processed/token_coords.jsonl",
+  "output": "/home/tiago/Documents/GitHub/voynich-decoder/reports/figures/overlays/overlay_1r.png",
+  "num_tokens": 3,
+  "unique_tokens": 3,
+  "color_by_token": true,
+  "show_labels": true,
+  "show_legend": true
+}

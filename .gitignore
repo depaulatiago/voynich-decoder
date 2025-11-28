@@ -1,0 +1,56 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Models and large binaries
+models/
+*.model
+*.bin
+*.safetensors
+*.pkl
+*.h5
+
+# Data (keep structure, ignore content)
+data/processed/*.jsonl
+data/processed/*.json
+data/raw/*.txt
+data/corpora/*.txt
+
+# Notebook outputs and checkpoints
+notebooks/outputs/
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Reports (keep structure, some outputs tracked)
+reports/comparison/*.json
+reports/hypotheses/*.jsonl
+
+# Binary arrays / caches
+*.npy
+*.npz
+
+# Logs and pip cache
+*.log
+pip-selfcheck.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
