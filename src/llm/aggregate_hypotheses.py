@@ -157,8 +157,10 @@ def aggregate():
             fh.write(f"  timestamp: {r.get('timestamp')}\n")
             if r.get('model'):
                 fh.write(f"  model: {r.get('model')}\n")
-            fh.write(f"  prompt: >\n    {r.get('prompt')[:400].replace('\n','\n    ')}\n")
-            fh.write(f"  response: >\n    {r.get('response')[:400].replace('\n','\n    ')}\n")
+            prompt_text = r.get('prompt', '')[:400].replace('\n', '\n    ')
+            response_text = r.get('response', '')[:400].replace('\n', '\n    ')
+            fh.write(f"  prompt: >\n    {prompt_text}\n")
+            fh.write(f"  response: >\n    {response_text}\n")
 
     print('Wrote aggregated JSONL to', OUT_JSONL)
     print('Wrote CSV to', OUT_CSV)
